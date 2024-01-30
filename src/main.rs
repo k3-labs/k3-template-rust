@@ -16,7 +16,3 @@ pub fn get(_req: Request<Vec<u8>>) -> Response<Vec<u8>> {
 }
 
 k3_wasm_macros::init!();
-
-fn main() {
-    // initialize and do side effects here
-}
