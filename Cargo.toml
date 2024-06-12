@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 k3-wasm-macros = { version = "0.1.7", features = ["nightly"] }
 k3-wasm-sdk = "0.1.12"
-reqwest = { version = "0.11.23", features = ["blocking"] }
+reqwest = { version = "0.11.23" }
+wasm-bindgen-futures = "0.4.41"

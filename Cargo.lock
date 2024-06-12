@@ -831,6 +831,7 @@ dependencies = [
  "k3-wasm-macros",
  "k3-wasm-sdk",
  "reqwest",
+ "wasm-bindgen-futures",
 ]
 
 [[package]]
