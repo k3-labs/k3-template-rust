@@ -5,4 +5,5 @@ edition = "2021"
 
 [dependencies]
 k3-wasm-macros = { version = "0.1.7", features = ["nightly"] }
-k3-wasm-sdk = "0.1.12" # 0.1.13 -> get_auth added
+k3-wasm-sdk = "0.1.13"
+serde_json = "1.0.113"
